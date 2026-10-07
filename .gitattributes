@@ -1,0 +1,5 @@
+# Los scripts de Windows se guardan tal cual (CRLF; instalar.ps1 con BOM).
+# cmd.exe falla en los goto/labels de un .bat con saltos de linea LF.
+*.bat -text
+*.ps1 -text
+*.zip binary

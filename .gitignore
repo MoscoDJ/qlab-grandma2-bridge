@@ -1,0 +1,6 @@
+__pycache__/
+.pytest_cache/
+*.log
+*.log.*
+# Python portátil que crea instalar.ps1 si se instala en esta misma carpeta
+/python/

@@ -1,0 +1,26 @@
+{
+  "osc": { "host": "0.0.0.0", "port": 8000 },
+  "osc_prefix": "/lx",
+
+  "ma2": {
+    "host": "127.0.0.1",
+    "port": 30000,
+    "user": "administrator",
+    "password": "admin"
+  },
+
+  "triggers": {
+    "1": { "name": "Inicio show",        "command": "Go Executor 1.101" },
+    "2": { "name": "Entrada talento",    "command": "Go Executor 1.102" },
+    "3": { "name": "Escena principal",   "command": "Go Executor 1.103" },
+    "4": { "name": "Cambio de ambiente", "command": "Go Executor 1.104" },
+    "5": { "name": "Momento especial",   "command": "Go Executor 1.105" },
+    "6": { "name": "Blackout",           "command": "Go Executor 1.106" },
+    "7": { "name": "Salida",             "command": "Go Executor 1.107" },
+    "8": { "name": "Final",              "command": "Go Executor 1.108" }
+  },
+
+  "default_command": null,
+  "allow_raw_commands": false,
+  "log_file": "ma2_bridge.log"
+}
